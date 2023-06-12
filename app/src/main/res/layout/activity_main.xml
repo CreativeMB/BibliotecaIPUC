@@ -55,31 +55,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/v_cambio" />
 
-    <TextView
-        android:id="@+id/padreN"
-        android:layout_width="315dp"
-        android:layout_height="435dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginEnd="80dp"
-        android:layout_marginBottom="28dp"
-        android:text="Padre nuestro que estás en el cielo,
-santificado sea tu Nombre;
-venga a nosotros tu Reino;
-hágase tu voluntad
-en la tierra como en el cielo.
-Danos hoy
-nuestro pan de cada día;
-perdona nuestras ofensas,
-como también nosotros perdonamos
-a los que nos ofenden;
-no nos dejes caer en la tentación,
-y líbranos del mal. Amén."
-        android:textAlignment="center"
-        android:textSize="26sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+
 
     <TextView
         android:id="@+id/textView4"
