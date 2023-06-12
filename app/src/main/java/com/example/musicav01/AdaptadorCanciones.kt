@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.musicav01.databinding.RowSongBinding
 
-class AdaptadorCanciones(val elementos:List<String>, val con:MainActivity)
+class AdaptadorCanciones(val elementos:List<String>, val con:homeActivity)
     : RecyclerView.Adapter<AdaptadorCanciones.ViewHolder>() {
 
     var selected = -1
