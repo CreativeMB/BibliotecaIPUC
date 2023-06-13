@@ -1,0 +1,12 @@
+package com.creativem.bibliotecaipuc.lluvias
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import com.creativem.bibliotecaipuc.R
+
+class lluviasActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_lluvias)
+    }
+}

@@ -4,7 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.creativem.bibliotecaipuc.corario.corarioActivity
 import com.creativem.bibliotecaipuc.infantiles.infantilesActivity
+import com.creativem.bibliotecaipuc.lluvias.lluviasActivity
+import com.creativem.bibliotecaipuc.manantil.manantilActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -30,15 +33,16 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, infantilesActivity::class.java)
         startActivity(intent)
     }
-    //private fun navigateUpTo() {
-        //val intent = Intent(this, infantilesActivity::class.java)
-        ///private fun navigateUpTo() {
-        //val intent = Intent(this, infantilesActivity::class.java)
-        //startActivity(intent)
-    //}
-    //private fun navigateUpTo() {
-      //  val intent = Intent(this, infantilesActivity::class.java)
-        //startActivity(intent)
-    //}
+    private fun navigateUpTo() {
+        val intent = Intent(this, corarioActivity::class.java)
+        startActivity(intent)
+    }
+    private fun navigateUpTo() {
+        val intent = Intent(this, lluviasActivity::class.java)
+        startActivity(intent)
+    }
+    private fun navigateUpTo() {
+        val intent = Intent(this, manantilActivity::class.java)
+        startActivity(intent)
 
 }
