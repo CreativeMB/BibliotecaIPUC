@@ -20,29 +20,32 @@ class MainActivity : AppCompatActivity() {
         val btn_cora = findViewById<Button>(R.id.btn_cora)
         val btn_manantial = findViewById<Button>(R.id.btn_manantial)
 
-        btn_lluvias.setOnClickListener { navigateUpTo() }
-        btn_corai.setOnClickListener { navigateUpTo() }
-        btn_cora.setOnClickListener { navigateUpTo() }
-        btn_manantial.setOnClickListener { navigateUpTo() }
-
+        btn_lluvias.setOnClickListener { navigateUpToApp() }
+        btn_corai.setOnClickListener { navigateUpToApp() }
+        btn_cora.setOnClickListener { navigateUpToApp() }
+        btn_manantial.setOnClickListener { navigateUpToApp() }
 
 
     }
 
-    private fun navigateUpTo() {
+    private fun navigateUpToApp() {
         val intent = Intent(this, infantilesActivity::class.java)
         startActivity(intent)
     }
-    private fun navigateUpTo() {
+
+    private fun navigateUpToApp() {
         val intent = Intent(this, corarioActivity::class.java)
         startActivity(intent)
     }
-    private fun navigateUpTo() {
+
+    private fun navigateUpToApp() {
         val intent = Intent(this, lluviasActivity::class.java)
         startActivity(intent)
     }
-    private fun navigateUpTo() {
+
+    private fun navigateUpToApp() {
         val intent = Intent(this, manantilActivity::class.java)
         startActivity(intent)
 
+    }
 }
