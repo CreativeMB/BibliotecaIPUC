@@ -2,60 +2,71 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/anterior"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#B1E91E63"
     tools:context=".MainActivity">
 
-    <Switch
-        android:id="@+id/v_cambio"
-        android:layout_width="342dp"
-        android:layout_height="8dp"
-        android:layout_marginTop="2dp"
-        android:text="Activar modo oscuro:"
-        app:layout_constraintEnd_toStartOf="@+id/ic_oscuro"
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="182dp"
+        android:layout_height="257dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.183"
+        app:srcCompat="@drawable/lluvias_de_bendicion" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="412dp"
+        android:layout_height="64dp"
+        android:background="#00BCD4"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00BCD4" />
+    </LinearLayout>
 
     <ImageView
-        android:id="@+id/ic_oscuro"
-        android:layout_width="43dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="2dp"
-        app:layout_constraintBottom_toBottomOf="@+id/v_cambio"
+        android:id="@+id/imageView5"
+        android:layout_width="134dp"
+        android:layout_height="138dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/v_cambio"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.802"
+        app:srcCompat="@drawable/iconocorario" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_luz" />
+        app:layout_constraintVertical_bias="0.221"
+        app:srcCompat="@drawable/icono" />
 
-    <Button
-        android:id="@+id/btn_go_to_home"
-        android:layout_width="138dp"
-        android:layout_height="124dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="10dp"
-        android:foreground="@drawable/iconc"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:fontFamily="monospace"
-        android:text="BIENVENIDOS"
-        android:textAllCaps="false"
-        android:textColor="@color/design_default_color_primary"
-        android:textSize="40sp"
-        android:textStyle="bold"
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="222dp"
+        android:layout_height="384dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/v_cambio" />
-
-
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953"
+        app:srcCompat="@drawable/manatial_de_inspiracion" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,20 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MusicaV01"
+        android:theme="@style/Theme.BibliotecaIPUC"
         tools:targetApi="31">
-        <activity
-            android:name=".A_LA_ESCUELA_BIBLICA"
-            android:exported="false" />
-        <activity
-            android:name=".homeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".infanlesActivity"
-            android:exported="false" />
-        <activity
-            android:name=".homeActivity2"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
