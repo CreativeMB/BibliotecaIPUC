@@ -33,19 +33,4 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    private fun navigateUpToApp() {
-        val intent = Intent(this, corarioActivity::class.java)
-        startActivity(intent)
-    }
-
-    private fun navigateUpToApp() {
-        val intent = Intent(this, lluviasActivity::class.java)
-        startActivity(intent)
-    }
-
-    private fun navigateUpToApp() {
-        val intent = Intent(this, manantilActivity::class.java)
-        startActivity(intent)
-
-    }
 }
