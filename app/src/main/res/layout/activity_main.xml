@@ -7,18 +7,6 @@
     android:background="#B1252424"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="182dp"
-        android:layout_height="257dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.93"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.183"
-        app:srcCompat="@drawable/lluvias_de_bendicion" />
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="412dp"
@@ -31,42 +19,59 @@
         <SearchView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#00BCD4" />
+            android:background="#00BCD4" >
+
+        </SearchView>
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="134dp"
-        android:layout_height="138dp"
-        android:layout_marginEnd="16dp"
+    <Button
+        android:id="@+id/btn_lluvias"
+        android:layout_width="206dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:text="lluvias"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.802"
-        app:srcCompat="@drawable/iconocorario" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="120dp"
-        android:layout_height="130dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.221"
-        app:srcCompat="@drawable/icono" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_cora" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="222dp"
-        android:layout_height="384dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <Button
+        android:id="@+id/btn_corai"
+        android:layout_width="206dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:text="corari infantil"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.953"
-        app:srcCompat="@drawable/manatial_de_inspiracion" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_manantial" />
+
+    <Button
+        android:id="@+id/btn_cora"
+        android:layout_width="206dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="100dp"
+        android:text="corario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_corai" />
+
+    <Button
+        android:id="@+id/btn_manantial"
+        android:layout_width="206dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:text="manantial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
