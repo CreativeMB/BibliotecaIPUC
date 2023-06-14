@@ -23,17 +23,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:textStyle="bold"
-            android:text= "Radios Online"
-            android:textSize="35sp" />
-        <TextView
-            android:id="@+id/artist"
+            android:text="Radios Online"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:text= "Mundial"
-            android:textSize="28sp"/>
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/olas" />
 
         <TextView
             android:layout_width="match_parent"
