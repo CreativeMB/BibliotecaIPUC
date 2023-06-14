@@ -40,6 +40,22 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
+        android:id="@+id/btn_mp3"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="162dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="49dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="252dp"
+        android:foreground="@drawable/boton"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btn_lluvias"
+        app:layout_constraintEnd_toStartOf="@+id/btn_corai"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
         android:id="@+id/btn_manantial"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="162dp"
