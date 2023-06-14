@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B1252424"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -19,59 +18,64 @@
         <SearchView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#00BCD4" >
+            android:background="#00BCD4">
+
 
         </SearchView>
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn_lluvias"
-        android:layout_width="206dp"
-        android:layout_height="116dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:text="lluvias"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_cora" />
-
-    <Button
-        android:id="@+id/btn_corai"
-        android:layout_width="206dp"
-        android:layout_height="116dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="100dp"
-        android:text="corari infantil"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_manantial" />
-
-    <Button
         android:id="@+id/btn_cora"
-        android:layout_width="206dp"
-        android:layout_height="116dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginEnd="100dp"
-        android:text="corario"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_corai" />
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="162dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="49dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="44dp"
+        android:foreground="@drawable/boton"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btn_lluvias"
+        app:layout_constraintEnd_toStartOf="@+id/btn_corai"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_manantial"
-        android:layout_width="206dp"
-        android:layout_height="116dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="100dp"
-        android:text="manantial"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="162dp"
+        android:layout_height="152dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="78dp"
+        android:foreground="@drawable/boton"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_lluvias"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="162dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="78dp"
+        android:foreground="@drawable/boton"
+        android:scrollbarDefaultDelayBeforeFade="100"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_corai"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="162dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="44dp"
+        android:foreground="@drawable/boton"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btn_manantial"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+        app:layout_constraintStart_toEndOf="@+id/btn_cora" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
