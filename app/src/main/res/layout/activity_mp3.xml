@@ -9,39 +9,40 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_gravity="top">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="500sp"
-            android:layout_gravity="top"
-            android:src="@drawable/song_icon"
-            />
+        android:layout_gravity="top"
+        android:background="#A09E9E"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:textStyle="bold"
-            android:text= "Radios Online"
-            android:textSize="35sp" />
+            android:text="Radio IPUC"
+            android:textSize="55sp"
+            android:textStyle="bold" />
+
         <TextView
             android:id="@+id/artist"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:textStyle="bold"
-            android:text= "Mundial"
-            android:textSize="28sp"/>
+            android:text="La radio "
+            android:textSize="34sp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Musica Variada"
-            android:textSize="25sp"
+            android:text="DE la Bendicion de Dios"
+            android:textSize="34sp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            app:srcCompat="@drawable/ipc" />
     </LinearLayout>
 
 

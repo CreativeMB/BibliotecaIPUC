@@ -29,13 +29,8 @@ class mp3Activity : AppCompatActivity(),Listener  {
     private fun getRadios(){
 
         val data = arrayOf(
-            "https://us-b4-p-e-ft6-audio.cdn.mdstrm.com/live-audio-aw/5fada54116646e098d97e6a5",
-            "https://streaming.gometri.com/stream/8011/stream/1/",
-            "https://24973.live.streamtheworld.com/CRP_LI_SC?csegid=20001&dist=20001&ttag=20001",
-            "https://19263.live.streamtheworld.com/CRP_MOD_SC?csegid=20001&dist=20001&ttag=20001",
-            "https://cast10.plugstreaming.com:2000/sslstream/musik915/stream/1/",
-            "http://node-30.zeno.fm/e2kzfpr34d0uv?rj-ttl=5&rj-tok=AAABfiK9BYMAhzmF4JUDwTTzHw",
-            "https://20283.live.streamtheworld.com/DISNEY_ARG_BA_SC")
+            "https://play14.tikast.com:22038/stream?type=http&nocache=438",
+            )
         for (posicion in data.indices){
             val item:MediaItem = MediaItem.Builder()
                 .setUri(data.get(posicion))
