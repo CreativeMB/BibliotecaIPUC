@@ -11,7 +11,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="top"
         android:background="#A09E9E"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:backgroundTint="#2196F3">
 
         <TextView
             android:layout_width="match_parent"
@@ -34,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="DE la Bendicion de Dios"
+            android:text="de la Bendicion de Dios"
             android:textSize="34sp"
             android:textStyle="bold" />
 
