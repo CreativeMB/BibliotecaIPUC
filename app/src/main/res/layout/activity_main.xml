@@ -31,11 +31,11 @@
         android:layout_height="60dp"
         android:layout_marginBottom="50dp"
         android:backgroundTint="#2196F3"
-        android:text="Corarios"
+        android:text="Infantiles"
         app:layout_constraintBottom_toTopOf="@+id/btn_manantial"
         app:layout_constraintStart_toStartOf="parent" />
 
-
+s
     <Button
         android:id="@+id/btn_mp3"
         android:layout_width="160dp"
@@ -58,7 +58,7 @@
 
     <Button
         android:id="@+id/btn_lluvias"
-        android:layout_width="162dp"
+        android:layout_width="160dp"
         android:layout_height="60dp"
         android:layout_marginBottom="50dp"
         android:backgroundTint="#2196F3"
@@ -70,11 +70,11 @@
 
     <Button
         android:id="@+id/btn_corai"
-        android:layout_width="162dp"
+        android:layout_width="160dp"
         android:layout_height="60dp"
         android:layout_marginBottom="50dp"
         android:backgroundTint="#2196F3"
-        android:text="Infantiles"
+        android:text="Corarios"
         app:layout_constraintBottom_toTopOf="@+id/btn_mp3"
         app:layout_constraintEnd_toEndOf="parent" />
 

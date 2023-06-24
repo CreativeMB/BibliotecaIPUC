@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#0097A7"
     tools:context=".infantiles.infantilesActivity">
 
     <LinearLayout
@@ -20,5 +21,18 @@
             android:layout_height="match_parent"
             android:background="#00BCD4"/>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Infantiles"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="115dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
