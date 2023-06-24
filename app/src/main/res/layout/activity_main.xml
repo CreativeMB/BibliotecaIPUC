@@ -20,8 +20,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#00BCD4">
-
-
         </SearchView>
     </LinearLayout>
 
@@ -64,7 +62,6 @@ s
         android:backgroundTint="#2196F3"
         android:scrollbarDefaultDelayBeforeFade="100"
         android:text="Lluvias"
-        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/btn_cora"
         app:layout_constraintStart_toStartOf="parent" />
 
