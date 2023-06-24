@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8BC34A"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="412dp"
         android:layout_height="64dp"
-        android:background="#00BCD4"
+        android:background="#673AB7"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
@@ -26,72 +27,55 @@
 
     <Button
         android:id="@+id/btn_cora"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="162dp"
-        android:layout_height="152dp"
-        android:layout_marginStart="49dp"
-
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="44dp"
-        android:foreground="@drawable/boton"
-        android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/btn_lluvias"
-        app:layout_constraintEnd_toStartOf="@+id/btn_corai"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#2196F3"
+        android:text="Corarios"
+        app:layout_constraintBottom_toTopOf="@+id/btn_manantial"
         app:layout_constraintStart_toStartOf="parent" />
+
 
     <Button
         android:id="@+id/btn_mp3"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="162dp"
-        android:layout_height="152dp"
-        android:layout_marginStart="49dp"
-
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="252dp"
-        android:foreground="@drawable/boton"
-        android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/btn_lluvias"
-        app:layout_constraintEnd_toStartOf="@+id/btn_corai"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn_manantial"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="162dp"
-        android:layout_height="152dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="78dp"
-        android:foreground="@drawable/boton"
-        android:visibility="visible"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#2196F3"
+        android:text="Radio Ipuc"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/btn_lluvias"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="162dp"
-        android:layout_height="152dp"
-        android:layout_marginStart="49dp"
-        android:layout_marginBottom="78dp"
-        android:foreground="@drawable/boton"
-        android:scrollbarDefaultDelayBeforeFade="100"
-        android:visibility="visible"
+        android:id="@+id/btn_manantial"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#2196F3"
+        android:text="Manantial"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_corai"
-        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/btn_lluvias"
         android:layout_width="162dp"
-        android:layout_height="152dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="44dp"
-        android:foreground="@drawable/boton"
+        android:layout_height="60dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#2196F3"
+        android:scrollbarDefaultDelayBeforeFade="100"
+        android:text="Lluvias"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/btn_manantial"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn_cora" />
+        app:layout_constraintBottom_toTopOf="@+id/btn_cora"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_corai"
+        android:layout_width="162dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#2196F3"
+        android:text="Infantiles"
+        app:layout_constraintBottom_toTopOf="@+id/btn_mp3"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
